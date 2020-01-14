@@ -1,0 +1,27 @@
+{
+  "name": "modulesinfolders",
+  "version": "1.0.0",
+  "description": "A nodeJS app that groups downloaded Udemy videos into different folders according to their modules",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EviCoach/modulesinfolders.git"
+  },
+  "keywords": [
+    "modules",
+    "in",
+    "folders"
+  ],
+  "author": "Evi Owhotemu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EviCoach/modulesinfolders/issues"
+  },
+  "homepage": "https://github.com/EviCoach/modulesinfolders#readme",
+  "dependencies": {
+    "mkdirp": "^0.5.1"
+  }
+}
