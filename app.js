@@ -11,9 +11,22 @@ const getDirectoryName = (file) => {
     let hiphen = file.indexOf('-0');
     if (hiphen < 0)
         hiphen = file.indexOf('-1');
-
     if (hiphen < 0)
         hiphen = file.indexOf('-2');
+    if (hiphen < 0)
+        hiphen = file.indexOf('-3');
+    if (hiphen < 0)
+        hiphen = file.indexOf('-4');
+    if (hiphen < 0)
+        hiphen = file.indexOf('-5');
+    if (hiphen < 0)
+        hiphen = file.indexOf('-6');
+    if (hiphen < 0)
+        hiphen = file.indexOf('-7');
+    if (hiphen < 0)
+        hiphen = file.indexOf('-8');
+    if (hiphen < 0)
+        hiphen = file.indexOf('-9');
 
 
     if (hiphen > 0)
