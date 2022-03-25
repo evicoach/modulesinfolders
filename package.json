@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/EviCoach/modulesinfolders#readme",
   "dependencies": {
-    "electron": "^7.1.9",
+    "electron": "^13.6.6",
     "mkdirp": "^0.5.1"
   }
 }
